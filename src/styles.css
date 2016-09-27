@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size:3.5em;
+}
+
+td.key {
+  padding: 1.4em;
+  box-shadow: 0 0 1px black,
+              0 0 2px black,
+              0 0 3px black;
+  width: 4em;
+}
+
+table {
+  box-shadow: 0 0 2px green,
+              0 0 4px green,
+              0 0 6px green,
+              0 0 8px yellow,
+              0 0 10px black,
+              0 0 12px black;
+  margin: 0 auto;
+  margin-top: 5em;
+  width: 6.4em;
+}
+
+input#calcValues {
+  width: 100%;
+  background: skyblue;
+  border: solid 1px black;
+}
